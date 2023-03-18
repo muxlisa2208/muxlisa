@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-image: url(./mmm.jpg);
+  background-size: cover;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+}
+header nav h1 {
+  color: black;
+}
+header nav .link a {
+  margin: 0px 20px;
+  text-decoration: none;
+}
+header nav .lola {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+}
+header nav .lola b {
+  font-size: 75px;
+  color: blue;
+}
+header nav .lola p {
+  font-size: 23px;
+}
+header nav button {
+  text-align: center;
+  position: absolute;
+  width: 200px;
+  padding: 15px 0;
+  top: 50%;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+}
+
+main .about {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .about .imga {
+  width: 350px;
+}
+main .about .imga img {
+  width: 300px;
+}
+main .about .TEXT h1 {
+  color: coral;
+  font-size: 55px;
+}
+main .about .TEXT .icons {
+  width: 100%;
+}
+main .about .TEXT .icons p {
+  padding-left: 45px;
+}
+main .about .TEXT .icons p span {
+  padding-left: 25px;
+}
+main .text3 {
+  text-align: center;
+}
+main .text3 h1 {
+  color: blue;
+  font-size: 35px;
+}
+main .text3 p {
+  font-size: 18px;
+}
+main .about2 {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .about2 .imga1 {
+  width: 450px;
+}
+main .about2 .imga1 img {
+  width: 330px;
+}
+main .about2 .TEXT1 {
+  width: 60%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .about2 .TEXT1 h1 {
+  color: blue;
+  font-size: 40px;
+}
+main .about2 .TEXT1 button {
+  color: blue;
+  width: 125px;
+  padding: 5px 18px;
+  border-radius: 20px;
+  border: 1px solid blue;
+  text-align: center;
+}
+main .f1 {
+  margin: 15px;
+  padding: 3px;
+}
+main .f1 h1 {
+  color: cornflowerblue;
+  text-align: center;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+main .grid2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+footer .fot h1 {
+  text-align: center;
+  color: blue;
+}
+
+@media (max-width: 768) {
+  header {
+    height: 70vh;
+  }
+  header nav a {
+    display: none;
+  }
+  header nav .lola b {
+    font-size: 25px;
+    top: 10%;
+  }
+  header nav .lola P {
+    font-size: 10px;
+  }
+  header nav button {
+    width: 100px;
+  }
+  main .about .imga {
+    width: 430px;
+  }
+  main .about .imga img {
+    width: 330px;
+  }
+  main .about .TEXT h1 {
+    color: coral;
+    font-size: 45px;
+  }
+  main .about .TEXT .icons {
+    width: 100%;
+  }
+  main .about .TEXT .icons p {
+    padding-left: 15px;
+  }
+  main .about .TEXT .icons p span {
+    padding-left: 25px;
+  }
+  main .about2 {
+    padding: 50px;
+  }
+  main .about2 .imga1 {
+    width: 350px;
+  }
+  main .about2 .imga1 img {
+    width: 200px;
+  }
+  main .about2 .TEXT1 {
+    width: 30%;
+    height: 350px;
+  }
+  main .about2 .TEXT1 h1 {
+    color: blue;
+    font-size: 20px;
+  }
+  main .about2 .TEXT1 p {
+    font-size: 15px;
+  }
+  main .about2 .TEXT1 button {
+    width: 125px;
+    top: 40%;
+    height: 30px;
+  }
+  main .mm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+  main .f1 {
+    margin: 15px;
+    padding: 3px;
+  }
+  main .f1 h1 {
+    color: cornflowerblue;
+    text-align: center;
+  }
+  main .grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 3px;
+  }
+  main .grid2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 5px;
+    padding: 10px;
+  }
+}
+@media (max-width: 320px) {
+  header nav a {
+    display: none;
+  }
+  header nav .lola b {
+    font-size: 15px;
+    top: 15%;
+  }
+  header nav .lola P {
+    font-size: 10px;
+  }
+  header nav button {
+    width: 110px;
+    top: 37%;
+  }
+  main .about .imga {
+    width: 290px;
+  }
+  main .about .imga img {
+    width: 180px;
+  }
+  main .about .TEXT h1 {
+    display: flex;
+    font-size: 20px;
+  }
+  main .about .TEXT .icons p {
+    font-size: 1px;
+    padding-left: 12px;
+  }
+  main .text3 h1 {
+    font-size: 15px;
+  }
+  main .text3 p {
+    font-size: 10px;
+  }
+  main .about2 .imga1 {
+    width: 330px;
+  }
+  main .about2 .imga1 img {
+    width: 150px;
+  }
+  main .about2 .TEXT1 {
+    -webkit-text-decoration: column;
+            text-decoration: column;
+  }
+  main .about2 .TEXT1 h1 {
+    font-size: 20px;
+  }
+  main .about2 .TEXT1 p {
+    font-size: 10px;
+  }
+  main .about2 .TEXT1 button {
+    width: 125px;
+    padding: 2px 2px;
+    height: 30px;
+    top: 30%;
+  }
+  main .mm {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-gap: 10px;
+  }
+  main .f1 {
+    margin: 15px;
+    padding: 3px;
+  }
+  main .f1 h1 {
+    color: cornflowerblue;
+    text-align: center;
+  }
+  main .grid {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-gap: 3px;
+  }
+  main .grid2 {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-gap: 5px;
+    padding: 10px;
+  }
+}/*# sourceMappingURL=flover.css.map */
